@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ####+BEGIN: bx:dblock:bash:top-of-file :vc "cvs" partof: "bystar" :copyleft "halaal+minimal"
-typeset RcsId="$Id: ftoProc.sh,v 1.1 2018-11-07 18:46:49 lsipusr Exp $"
+typeset RcsId="$Id: dblock-iim-bash.el,v 1.4 2017-02-08 06:42:32 lsipusr Exp $"
 # *CopyLeft*
 #  This is a Halaal Poly-Existential. See http://www.freeprotocols.org
 
@@ -12,7 +12,7 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/opt/public/osmt/bin/seedFtoCommon.sh]] | 
 "
 FILE="
-*  /This File/ :: /de/bx/nne/dev-py/pypi/pkgs/blee/ftoProc.sh 
+*  /This File/ :: /bisos/git/auth/bxRepos/roPerf-pip/ftoProc.sh 
 "
 if [ "${loadFiles}" == "" ] ; then
     /opt/public/osmt/bin/seedFtoCommon.sh -l $0 "$@" 
@@ -49,9 +49,10 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
-elispDist
+overview
+bearerTokenExample
 namespace
-icmPlayer
+base
 "
 # }}} DBLOCK-nodesList
 ####+END:
